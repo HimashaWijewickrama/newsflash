@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getTopBusinessNews } from "../../API/news"; // Adjust the path based on your project structure
+import { getTopBusinessNews } from "../../API/applicationServices"; 
 import TopBusinessView from "./topBusiness.view";
 
 const TopBusinessContainer = () => {

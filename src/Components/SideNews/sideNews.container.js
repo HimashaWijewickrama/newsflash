@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getTopWallStreetNews } from "../../API/news"; // Adjust the path based on your project structure
+import { getTopWallStreetNews } from "../../API/applicationServices"; 
 import SideNewsView from "./sideNews.view";
 
 const SideNewsContainer = () => {
