@@ -5,7 +5,7 @@ export default function SubTitleText({ subtitle }) {
   return (
     <div className="container-fluid" style={{margin: "70px"}}>
       <span>
-        <p className="text-center text-capitalize fs-4" id="subtitle-text">
+        <p className="text-center text-capitalize fs-1" id="subtitle-text">
           {" "}
           {subtitle}
         </p>

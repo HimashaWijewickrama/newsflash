@@ -14,10 +14,10 @@ export default function SideNewsView({ news, error, loading }) {
 
   return (
     <Container fluid>
-      <SubTitleText subtitle={"Featured"}/>
+      <SubTitleText subtitle={"Wall Street articles"}/>
         {topfourNews.map((article, index) => (
           <Col key={index}>
-            <Card style={{ width: "28rem" }}
+            <Card style={{ width: "25rem" }}
             >
               <Card.Img variant="top" src={article.urlToImage} />
               <Card.Body>

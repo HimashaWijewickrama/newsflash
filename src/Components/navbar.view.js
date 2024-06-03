@@ -1,29 +1,52 @@
 import React from "react";
 import { Col, Container, Row, Stack } from "react-bootstrap";
-import { BsFacebook, BsLinkedin, BsTwitter } from "react-icons/bs";
+import { FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 export default function NavBar() {
   return (
     <Container fluid>
-      <Row style={{ backgroundColor: "#2B4748", color: "#ffffff" }}>
+      <Row style={{ backgroundColor: "#000000", color: "#ffffff" }}>
         <Col className="align-items-start" xs={6}>
           <Stack direction="horizontal" gap={3}>
-            <div className="p-4 fs-6 fw-bold"><a href="/newsflash/home" className="text-decoration-none">HOME</a></div>
-            <div className="p-4 fs-6 fw-bold"><a href="/blog" className="text-decoration-none">BLOG</a></div>
-            <div className="p-4 fs-6 fw-bold"><a href="/about"className="text-decoration-none">ABOUT</a></div>
+            <p className="p-4 fs-6 fw-bold">
+              <a
+                href="/newsflash/home"
+                className="text-decoration-none"
+                style={{ color: "#ffffff" }}
+              >
+                Home
+              </a>
+            </p>
+            <p className="p-4 fs-6 fw-bold">
+              <a
+                href="/blog"
+                className="text-decoration-none"
+                style={{ color: "#ffffff" }}
+              >
+                Blog
+              </a>
+            </p>
+            <p className="p-4 fs-6 fw-bold">
+              <a
+                href="/about"
+                className="text-decoration-none"
+                style={{ color: "#ffffff" }}
+              >
+                About
+              </a>
+            </p>
           </Stack>
         </Col>
-        <Col className="align-items-end" xs={4}></Col>
-        <Col className="align-items-end" xs={2}>
-          <Stack direction="horizontal" gap={3}>
+        <Col className="d-flex justify-content-end" xs={6}>
+          <Stack direction="horizontal" gap={3} className="ms-auto">
             <div className="p-4">
-              <BsLinkedin />
+              <FaLinkedin size={20} />
             </div>
             <div className="p-4">
-              <BsFacebook />
+              <FaFacebook size={20} />
             </div>
             <div className="p-4">
-              <BsTwitter />
+              <FaTwitter size={20} />
             </div>
           </Stack>
         </Col>

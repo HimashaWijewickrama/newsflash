@@ -11,7 +11,7 @@ import Footer from "./Components/footer";
 
 export default function App() {
   return (
-    <Container>
+    <Container style={{border: "1px solid #000000"}}>
       <NavBar />
       <AppRoutes />
 

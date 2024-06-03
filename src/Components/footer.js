@@ -7,13 +7,21 @@ import { IoIosSend } from "react-icons/io";
 
 function Footer() {
   return (
-    <Container>
-      <hr style={{ color: "muted" }} />
+    <Container style={{backgroundColor: "#000000"}}>
+      <hr style={{ color: "#ffffff" }} />
 
       <Row>
         <span
-          style={{ margin: "0px", color: "muted", justifyContent: "center" }}
+          style={{ margin: "0px", color: "#ffffff", justifyContent: "center" }}
         >
+          <h5
+            className="mb-3 fw-bolder text-center fs-2"
+            id="footer-text"
+            // style={{ marginRight: "20px",}}
+          >
+            Follow Us On
+          </h5>
+
           <FaLinkedin
             size={25}
             data-bs-toggle="tooltip"
@@ -38,8 +46,10 @@ function Footer() {
         </span>
       </Row>
       <Row>
-        <h5 className="text-muted mb-3 fw-bold">Newsletter</h5>
-        <p className="small text-muted">
+        <h5 className="mb-3 fw-bolder fs-2" id="footer-text">
+          Newsletter |
+        </h5>
+        <p className="small" style={{color: "#ffffff"}}>
           Want to know what we're up to? Sign up for the newsletter and join our
           tribe.
         </p>
@@ -52,7 +62,7 @@ function Footer() {
               aria-label="Recipient's username"
               aria-describedby="button-addon2"
             />
-            <Button variant="outline-success" id="button-addon2">
+            <Button variant="light" id="button-addon2">
               <IoIosSend
                 data-bs-toggle="tooltip"
                 data-bs-placement="top"
@@ -63,7 +73,7 @@ function Footer() {
         </form>
       </Row>
       <Row>
-        <p className="text-center small text-muted mb-0">
+        <p className="text-center small mb-0" style={{color: "#ffffff"}}>
           &copy; 2024 NewsFlash - All rights reserved
         </p>
       </Row>
