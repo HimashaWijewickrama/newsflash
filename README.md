@@ -46,3 +46,10 @@ Deploy the project to the hosting environment. (Here, GitHub pages)
 
 Local: http://localhost:3000/newsflash 
 
+## Snapshot of the NewsFlash Home Page
+
+![home-page](https://github.com/HimashaWijewickrama/newsflash/assets/88511468/dc89c1d0-b42a-4a6c-b606-f52c357c9ec8)
+
+
+
+
