@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-desfcripik
+The NewsFlash news blog built using ReactJS and bootstrap featuring dynamic content fetching from various types of news APIs available in newsapi.org.
 
 ## Prerequisites
 
