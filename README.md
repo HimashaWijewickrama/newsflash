@@ -44,5 +44,5 @@ Compiles the project for production.
 
 Deploy the project to the hosting environment. (Here, GitHub pages)
 
-Local: http://localhost:3000/newsflash \
+Local: http://localhost:3000/newsflash 
 
