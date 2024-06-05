@@ -39,19 +39,19 @@ export default function TopBusinessView({ news, error, loading }) {
                   {article.title || "Something went wrong..!"}
                 </Card.Title>
                 <Card.Text className="fs-6">
-                  <small class="text-muted">
+                  <small className="text-muted">
                     {article.description || "Something went wrong..!"}
                   </small>
                 </Card.Text>
               </Card.Body>
               <Card.Footer className="text-center">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">
+                <ul className="list-group list-group-flush">
+                  <li className="list-group-item">
                     <cite title="Source Title" className="text-muted">
                       Source: {article.source.name}
                     </cite>
                   </li>
-                  <li class="list-group-item">
+                  <li className="list-group-item">
                     <a
                       href={article.url}
                       className="text-decoration-none"

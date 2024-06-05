@@ -34,17 +34,17 @@ export default function TopNewsView({ news, error, loading }) {
               <Card.Body style={{ height: "25rem" }}>
                 <Card.Title className="fs-6">{article.title}</Card.Title>
                 <Card.Text className="fs-6">
-                  <small class="text-muted">{article.description}</small>
+                  <small className="text-muted">{article.description}</small>
                 </Card.Text>
               </Card.Body>
               <Card.Footer className="text-center">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">
+                <ul className="list-group list-group-flush">
+                  <li className="list-group-item">
                     <cite title="Source Title" className="text-muted">
                       Source: {article.source.name}
                     </cite>
                   </li>
-                  <li class="list-group-item">
+                  <li className="list-group-item">
                     <a
                       href={article.url}
                       className="text-decoration-none"
