@@ -45,4 +45,4 @@ Compiles the project for production.
 Deploy the project to the hosting environment. (Here, GitHub pages)
 
 Local: http://localhost:3000/newsflash \
-On Your Network: https://himashawijewickrama.github.io/newsflash/
+
